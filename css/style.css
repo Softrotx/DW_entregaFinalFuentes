@@ -1,0 +1,366 @@
+/* font-family: 'Indie Flower', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Borel&family=Indie+Flower&display=swap");
+/* header & Footer */
+header {
+  padding: 10px 20px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+header .logo {
+  justify-content: start;
+}
+header .logo a {
+  font-size: 2em;
+}
+header .menuPrincipal {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+header .menuPrincipal .botonMenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+header .btn-primary {
+  width: 100px;
+  font-size: 1.5rem;
+  background-color: #a2ccc2;
+  color: black;
+  border: 0;
+}
+header .btn:hover {
+  background-color: #2d8281;
+}
+header .btn:active {
+  background-color: #163d5b;
+}
+
+.nav {
+  padding-left: 30px;
+}
+.nav .login {
+  display: flex;
+  font-size: 1.5em;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  border: 0;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.nav .login input {
+  margin: 2px;
+  width: 80%;
+}
+.nav .login button {
+  width: 100px;
+}
+
+.error404 {
+  width: 100%;
+  height: 1000px;
+  background-image: url(../medios/404.png), linear-gradient(to bottom, #a2ccc2, #163d5b);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.checkOut {
+  display: none;
+}
+
+/* INDEX[line 43] main */
+main, main section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.videoPromesa {
+  width: 100%;
+  background-color: #E2F3FD;
+}
+.videoPromesa p {
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+}
+.videoPromesa video {
+  width: 1000px;
+  background-color: #E2F3FD;
+}
+
+.promesa {
+  margin: 100px 0px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* INDEX[line 51]: imagen con texto y registro a la derecha  */
+.infoRegistro {
+  width: 100%;
+  background-color: #e6b8c2;
+  font-family: "Indie Flower", cursive;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.infoRegistroLeft {
+  margin: 20px 20px;
+}
+
+.infoRegistroLeft img {
+  width: 350px;
+}
+
+.infoRegistro a {
+  font-size: 2.4em;
+}
+
+.infoRegistroRight {
+  width: 400px;
+  margin: 5px 20px;
+  height: 500px;
+}
+
+/*  INDEX[line 63]: carrusel testimonios */
+.container-xl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.carousel {
+  width: 60%;
+  margin: 30px 0px;
+}
+
+.carousel img {
+  width: 100%;
+}
+
+/* Page expositores */
+/* expositores[line] */
+.categorias {
+  margin-top: 30px;
+  font-size: 1.2em;
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.categorias input {
+  font-size: 1.5em;
+  background-color: #fff;
+  color: black;
+  width: 100%;
+}
+.categorias h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width: 100%;
+}
+.categorias ul li {
+  list-style-type: none;
+  font-size: 2em;
+}
+
+.dropdown a {
+  font-size: 1.5em;
+  background-color: #fff;
+  color: black;
+  width: 100%;
+}
+
+.dropdown:active {
+  background-color: #163d5b;
+}
+
+.dropdown-item:hover {
+  font-weight: 600;
+}
+
+.dropdown-item:active {
+  background-color: #163d5b;
+  color: white;
+}
+
+.expositores div {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  justify-content: space-around;
+}
+
+.cardExpositores {
+  width: 400px;
+  border: 1px;
+  display: flex;
+  margin: 0px 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  background-color: #2d8281;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.75);
+}
+
+/* .cardExpositores:hover{
+    width: 450px;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.75);
+
+} */
+.cardExpositores img {
+  width: 250px;
+  margin: 15px 0px;
+}
+
+.cardExpoBody {
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+.cardExpoBody div {
+  display: flex;
+  justify-content: center;
+}
+.cardExpoBody a img {
+  width: 50px;
+  margin: 0 4px;
+}
+.cardExpoBody a img :hover {
+  width: 60px;
+  margin: 0 4px;
+}
+
+/* Page . CLASES */
+.clases {
+  font-size: 1.5rem;
+  margin: 40px 20px;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.clases h2 {
+  margin: 0px;
+  text-align: start;
+}
+
+.videoTitulo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 20px;
+}
+.videoTitulo button {
+  width: 130px;
+  padding: 5px 20px;
+  border-radius: 20px;
+  background-color: green;
+  color: white;
+  border: none;
+  font-size: 1.5em;
+}
+
+.descripcionVideo {
+  display: flex;
+  flex-direction: row;
+  text-align: start;
+  width: 90%;
+  margin-top: 30px;
+}
+.descripcionVideo p {
+  font-size: 1em;
+}
+
+.imgVideo {
+  margin-right: 20px;
+}
+.imgVideo img {
+  width: 100%;
+}
+
+.tituloVideo {
+  width: 50%;
+}
+.tituloVideo img {
+  width: 150px;
+}
+
+.recomendados {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 1em;
+}
+
+.recomVideos {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 20px 0px;
+}
+
+.cardRecom {
+  width: 300px;
+  margin: 0px 30px;
+}
+
+/* responsive */
+@media only screen and (max-width: 991px) {
+  .infoRegistroLeft {
+    width: 100%;
+  }
+  .infoRegistroRight {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  header {
+    flex-wrap: wrap;
+  }
+  .logo {
+    flex: 1;
+    order: 1;
+  }
+  .menuSecundario {
+    order: 2;
+  }
+  .menuPrincipal {
+    order: 3;
+  }
+  .videoPromesa video {
+    width: 100%;
+  }
+  .carousel {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .carousel {
+    width: 100%;
+  }
+  footer {
+    justify-content: center;
+  }
+  footer img {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

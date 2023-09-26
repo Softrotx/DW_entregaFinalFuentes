@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- css propio -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/png" href="./medios/logo.png">
+
+
+    <title>Salud de la Nueva Era
+    </title>
+
+</head>
+
+<body>
+    <header class="sticky-top">
+        <!-- Logo + nombre -->
+
+        <nav class="navbar navbar-expand-lg logo">
+            <div class="">
+                <a class="navbar-brand" href="#">
+                    <img src="./medios/logo.png" alt="Logo" width="40" class="">
+                    Salud Nueva Era
+                </a>
+            </div>
+            <!-- menu central & burger -->
+        </nav>
+        <nav class="navbar navbar-expand-lg menuPrincipal">
+            <div class="botonMenu">
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page"
+                                href="./pages/expositores.html">Expositores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/clases.html">Clases</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/talleres.html">Talleres</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- menu lateral -->
+
+        <nav class="navbar menuSecundario">
+            <div class="menuSecundario coloresHover">
+                <button class="btn btn-primary coloresHover" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Cuenta</button>
+
+                <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasRight"
+                    aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header">
+                        <h2 class="offcanvas-title" id="offcanvasRightLabel">Login</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="nav flex-column">
+                            <li>
+                                <form id="loginUser" class="login">
+                                    <input type="email" name="inputEmail" id="inputEmail" placeholder="Ingrese su correo">
+                                    <input type="password" name="inputPassword" id="inputPassword" placeholder="Ingrese su contraseña">
+                                    <button href="./pages/cuenta.html" type="submit">Ingresar</button>
+                                </form>
+                                <a href="./pages/registro.html">Registrar cuenta</a>
+                            </li>
+                            <li>
+                                <a class="checkOut" href="./pages/checkout.html">Checkout</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <section class="videoPromesa">
+            <!-- video con texto abajo -->
+            <video src="./medios/cambiemos esto.mp4" autoplay></video>
+        </section>
+
+        <section class="promesa">
+                <h1>
+                    Lorem ipsum dolor sit amet.
+                </h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores facere laborum iusto quia dolorem
+                    esse officiis cupiditate reiciendis consequuntur nulla.</p>
+         </section>
+
+        <section class="infoRegistro">
+            <!-- imagen con texto y registro a la derecha -->
+            <div class="infoRegistroLeft">
+                <img src="./medios/fabiola vera.png" alt="">
+            </div>
+            <div class="infoRegistroRight">
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, qui!</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium facilis commodi exercitationem
+                    reiciendis facere in officiis modi tempore aspernatur amet.</p>
+                <a href="./pages/registro.html">¡Registrate!</a>
+            </div>
+        </section>
+        <!-- mensajes de las personas en carrusel -->
+        <section class="container-xl">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner testimonios">
+                    <div class="carousel-item active">
+                        <img src="./medios/testimonios/testimonio1.png" class="d-block bg-body "
+                            data-bs-interval="50000" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./medios/testimonios/testimonio2.png" class="d-block bg-body"
+                            data-bs-interval="50000" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./medios/testimonios/testimonio3.png" class="d-block bg-body"
+                            data-bs-interval="50000" alt="...">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <!-- Logo + nombre pequeño-->
+        <img src="./medios/logoletrasblancas.png" alt="logo Salud de la Nueva Era">
+        <!-- iconos de redes sociales -->
+
+        <div>
+            <a href="http://facebook.com" target="_blank" rel="noopener noreferrer"><img src="./medios/facebook.png"
+                    alt="link a Facebook"></a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><img src="./medios/instagram.png"
+                    alt="link a Instagram"></a>
+        </div>
+        <!-- copyright y condiciones -->
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis aspernatur et praesentium voluptatum est quidem magni, quia impedit officiis aliquam cum eveniet? Reiciendis suscipit voluptatum deserunt quam ea repellat assumenda quo minima aspernatur, et officia aperiam quibusdam maxime veniam velit deleniti natus aliquid nostrum molestias non amet. Adipisci et eaque accusantium repellat deserunt aut aliquid quibusdam deleniti provident quasi, praesentium fuga rem. Sed excepturi modi distinctio quod eligendi ipsum, maiores, dicta quas omnis fugit vero molestiae sapiente dolore quasi! Expedita libero, laudantium esse quasi voluptatum eveniet autem exercitationem sapiente nam consequuntur, omnis reiciendis illo deserunt voluptatem distinctio amet magni tempora officiis ullam vitae nihil iste possimus ad at. Ut voluptate necessitatibus quidem dolor, odit maxime porro fugit qui nisi ad soluta rem assumenda quas excepturi et architecto accusamus beatae dolorem sunt reprehenderit expedita delectus, libero praesentium. Sint ab enim, commodi rem ipsam necessitatibus nulla, totam laboriosam nihil dolore suscipit quisquam dolor consequatur! Nisi numquam officiis, excepturi nostrum voluptates placeat. Sit ea amet veniam, consequuntur consectetur perferendis qui ratione cumque quidem quo vel, quod est nesciunt. Voluptatem illo vel qui, recusandae perferendis dolorem voluptate quibusdam. Error, sequi? Non dolorum magnam est illo similique, laborum dicta possimus sit, nesciunt, maxime provident exercitationem?
+        </p>
+
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
