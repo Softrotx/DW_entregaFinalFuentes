@@ -1,6 +1,6 @@
 /* font-family: 'Indie Flower', cursive; */
 @import url("https://fonts.googleapis.com/css2?family=Borel&family=Indie+Flower&display=swap");
-/* header & Footer */
+/* INICIO HEADER Y FOOTER */
 header {
   padding: 10px 20px;
   background-color: white;
@@ -59,6 +59,30 @@ header .btn:active {
   width: 100px;
 }
 
+/* footer */
+footer {
+  font-size: 0.5em;
+  background-color: #163d5b;
+  text-align: start;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+footer img {
+  width: 280px;
+}
+
+footer a img {
+  width: 30px;
+}
+
+/* FIN HEADER Y FOOTER */
+/* INICIO ERROR 404 */
 .error404 {
   width: 100%;
   height: 1000px;
@@ -68,11 +92,9 @@ header .btn:active {
   background-position: center;
 }
 
-.checkOut {
-  display: none;
-}
-
-/* INDEX[line 43] main */
+/* FIN ERROR 404 */
+/* INICIO DE PAGINAS + INDEX */
+/* INDEX */
 main, main section {
   display: flex;
   flex-direction: column;
@@ -113,20 +135,16 @@ main, main section {
   align-items: flex-end;
   flex-wrap: wrap;
 }
-
-.infoRegistroLeft {
-  margin: 20px 20px;
-}
-
-.infoRegistroLeft img {
-  width: 350px;
-}
-
 .infoRegistro a {
   font-size: 2.4em;
 }
-
-.infoRegistroRight {
+.infoRegistro .infoRegistroLeft {
+  margin: 20px 20px;
+}
+.infoRegistro .infoRegistroLeft img {
+  width: 350px;
+}
+.infoRegistro .infoRegistroRight {
   width: 400px;
   margin: 5px 20px;
   height: 500px;
@@ -140,13 +158,11 @@ main, main section {
   margin: 0px;
   padding: 0px;
 }
-
-.carousel {
+.container-xl .carousel {
   width: 60%;
   margin: 30px 0px;
 }
-
-.carousel img {
+.container-xl .carousel img {
   width: 100%;
 }
 
@@ -322,7 +338,153 @@ main, main section {
   margin: 0px 30px;
 }
 
-/* responsive */
+/* page talleres */
+.talleres {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+.talleres h1 {
+  width: 100%;
+  margin: 50px;
+}
+.talleres .talleresLeft {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  justify-content: space-evenly;
+}
+.talleres .talleresLeft .datosAvatar {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.talleres .talleresLeft .datosAvatar .avatarCircle {
+  border-radius: 50%;
+  width: 100%;
+  margin: 20px 0 25px 0;
+  width: 200px;
+}
+.talleres .talleresLeft .datosAvatar .nombreTalleres {
+  font-weight: 600;
+  margin: 0;
+}
+.talleres .talleresLeft .datosAvatar .profesTalleres {
+  font-size: 1.5em;
+}
+.talleres .talleresLeft .datosAvatar .rSociales {
+  display: flex;
+  justify-content: center;
+}
+.talleres .talleresLeft .datosAvatar .rSociales img {
+  width: 35px;
+}
+.talleres .talleresLeft .inscripcionTaller {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+.talleres .talleresLeft .inscripcionTaller p {
+  margin-top: 30px;
+  color: green;
+}
+.talleres .talleresLeft .inscripcionTaller button {
+  width: 150px;
+  height: 50px;
+  border-radius: 15px;
+  font-size: 1.5em;
+  border: 0;
+}
+
+.pageNav {
+  margin: 60px;
+  width: 100%;
+  justify-content: space-around;
+}
+.pageNav a {
+  font-size: 1.5em;
+  color: black;
+  width: 100px;
+  text-align: center;
+}
+
+.infoTaller {
+  width: 50%;
+}
+
+/* page contacto */
+.bodyContact {
+  background-color: #a2ccc2;
+}
+.bodyContact .contacto {
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bodyContact .contacto .formContact {
+  margin: 50px;
+  border: 1px solid;
+  padding: 30px;
+  font-size: 1.5em;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px 0px 30px 0px;
+  background-color: white;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+}
+.bodyContact .contacto .formContact .nombreApellido {
+  display: flex;
+  flex-direction: row;
+}
+.bodyContact .contacto .formContact .nombreApellido input {
+  width: 100%;
+}
+.bodyContact .contacto .formContact input {
+  height: 30px;
+  font-size: 1.5em;
+}
+.bodyContact .contacto .formContact button {
+  margin-top: 10px;
+  height: 40px;
+  font-size: 1.5em;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+/* page registro */
+.registro {
+  width: 100%;
+  background-color: #e6b8c2;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.registro .formRegistro {
+  width: 400px;
+}
+.registro .formRegistro .terminos {
+  display: flex;
+  align-items: center;
+}
+.registro .formRegistro .terminos label {
+  font-size: 1em;
+  padding-left: 10px;
+}
+
+/* page check out */
+.checkOut {
+  display: none;
+}
+
+/* FIN DE PAGINAS + INDEX */
+/* INICIO RESPONSIVE */
 @media only screen and (max-width: 991px) {
   .infoRegistroLeft {
     width: 100%;
@@ -362,5 +524,6 @@ main, main section {
     width: 100%;
   }
 }
+/* FIN RESPONSIVE */
 
 /*# sourceMappingURL=style.css.map */

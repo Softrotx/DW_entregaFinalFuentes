@@ -1,0 +1,106 @@
+.talleres {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+
+    h1 {
+        width: 100%;
+        margin: 50px;
+    }
+
+    .talleresLeft {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        justify-content: space-evenly;
+
+        .datosAvatar {
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .avatarCircle {
+
+                border-radius: 50%;
+                width: 100%;
+                margin: 20px 0 25px 0;
+                width: 200px;
+            }
+
+            .nombreTalleres {
+                font-weight: 600;
+                margin: 0;
+            }
+
+            .profesTalleres {
+                font-size: 1.5em;
+
+            }
+
+            .rSociales {
+                display: flex;
+                justify-content: center;
+
+                img {
+                    width: 35px;
+
+                }
+            }
+
+        }
+
+        .inscripcionTaller {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 80%;
+
+            p {
+                margin-top: 30px;
+                color: green;
+
+            }
+
+            button {
+                width: 150px;
+                height: 50px;
+                border-radius: 15px;
+                font-size: 1.5em;
+                border: 0;
+
+            }
+
+
+        }
+
+
+    }
+
+
+}
+
+.pageNav {
+    margin: 60px;
+    width: 100%;
+    justify-content: space-around;
+
+    a {
+        font-size: 1.5em;
+        color: black;
+        width: 100px;
+        text-align: center;
+    }
+
+
+}
+
+
+
+
+
+.infoTaller {
+    width: 50%;
+}

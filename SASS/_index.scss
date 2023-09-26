@@ -1,0 +1,82 @@
+main{
+    @include flex (column, center, center, nowrap);
+        section {
+            @extend main;
+        }
+        
+    }
+    .videoPromesa {
+        width: 100%;
+        background-color: #E2F3FD;
+        p {
+            text-align: center;
+            font-family: 'Indie Flower', cursive;
+        
+        }
+        video {
+            width: 1000px;
+            background-color: #E2F3FD;
+        }
+    
+    }
+    .promesa {
+        
+    
+        margin: 100px 0px;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    
+    
+    
+    
+    /* INDEX[line 51]: imagen con texto y registro a la derecha  */
+    .infoRegistro {
+        width: 100%;
+        background-color: $rosaCl;
+        font-family: $font;
+        text-align: center;
+        @include flex (row, center, flex-end, wrap);
+        a {
+            font-size: 2.4em;
+        
+        }
+        .infoRegistroLeft {
+            margin: 20px 20px;
+            img {
+                width: 350px
+            }
+            
+        }
+        .infoRegistroRight {
+            width: 400px;
+            margin: 5px 20px;
+            height: 500px;
+        }
+    
+    }
+    
+    
+    
+    
+    
+    /*  INDEX[line 63]: carrusel testimonios */
+    
+    .container-xl{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        padding: 0px;
+        .carousel{
+            width: 60%;
+            margin: 30px 0px;
+            img{
+                width: 100%;
+            }
+        }
+    }

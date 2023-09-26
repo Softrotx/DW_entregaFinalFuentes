@@ -5,10 +5,7 @@ footer {
     text-align:start;
     color: white;
     padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
+    @include flex (row, space-between, center, wrap);
     
 }
 

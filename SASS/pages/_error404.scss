@@ -1,0 +1,12 @@
+.error404 {
+    width: 100%;
+    height: 1000px;
+
+    background-image: url(../medios/404.png), linear-gradient(to bottom,
+            $verdeCl,
+            $azulOs);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
