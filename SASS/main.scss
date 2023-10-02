@@ -41,8 +41,5 @@
 @import "pages/checkout";
 /* FIN DE PAGINAS + INDEX */
 
-
-/* INICIO RESPONSIVE */
-@import "responsive/1tablet.scss";
-@import "responsive/2phone.scss";
-/* FIN RESPONSIVE */
+/* animaciones */
+@import "animaciones/animacion"

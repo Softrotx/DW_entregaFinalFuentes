@@ -1,82 +1,150 @@
-main{
+html {
+    font-family: sans-serif;
+}
+
+main {
     @include flex (column, center, center, nowrap);
-        section {
-            @extend main;
-        }
-        
+
+    section {
+        @extend main;
     }
-    .videoPromesa {
-        width: 100%;
-        background-color: #E2F3FD;
-        p {
-            text-align: center;
-            font-family: 'Indie Flower', cursive;
-        
-        }
-        video {
-            width: 1000px;
-            background-color: #E2F3FD;
-        }
-    
-    }
-    .promesa {
-        
-    
-        margin: 100px 0px;
-        width: 70%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    
-    }
-    
-    
-    
-    
-    /* INDEX[line 51]: imagen con texto y registro a la derecha  */
-    .infoRegistro {
-        width: 100%;
-        background-color: $rosaCl;
-        font-family: $font;
+
+}
+
+.videoPromesa {
+    width: 100%;
+    background-color: #E2F3FD;
+
+    p {
         text-align: center;
-        @include flex (row, center, flex-end, wrap);
-        a {
-            font-size: 2.4em;
-        
-        }
-        .infoRegistroLeft {
-            margin: 20px 20px;
-            img {
-                width: 350px
-            }
-            
-        }
-        .infoRegistroRight {
-            width: 400px;
-            margin: 5px 20px;
-            height: 500px;
-        }
-    
+        font-family: 'Indie Flower', cursive;
+
     }
-    
-    
-    
-    
-    
-    /*  INDEX[line 63]: carrusel testimonios */
-    
-    .container-xl{
-        
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0px;
-        padding: 0px;
-        .carousel{
-            width: 60%;
-            margin: 30px 0px;
-            img{
+
+    video {
+        width: 1000px;
+        background-color: #E2F3FD;
+
+        @include pad {
+            width: 100%;
+        }
+    }
+
+}
+
+.promesa {
+    font-family: $font2;
+    text-align: center;
+    margin: 100px 0px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+
+/* INDEX[line 51]: imagen con texto y registro a la derecha  */
+.infoRegistro {
+    width: 100%;
+    background-color: $rosaCl;
+
+    text-align: center;
+    @include flex (row, space-evenly, center, wrap);
+
+    a {
+        font-size: 2em;
+        text-decoration: none;
+        color: $azulOs;
+        transition: 1s;
+
+        background-size: 100% 0.1em, 0 0.1em;
+
+    }
+
+    a:hover {
+
+        transform: translateY(-30%) scale(1.1);
+        color: $verdeOs;
+
+
+    }
+
+    .infoRegistroLeft {
+        padding: 30px 0px;
+
+        img {
+            width: 350px;
+
+            @include phone {
                 width: 100%;
             }
         }
+
+        @include pad {
+            width: 70%;
+            margin: 20px 0px;
+        }
+
+
     }
+
+    .infoRegistroRight {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 40%;
+        height: 400px;
+
+        @include pad {
+            width: 80%;
+        }
+
+        @include phone {
+            width: 100%;
+        }
+
+
+    }
+
+    @include pad {
+        width: 100%;
+        padding-bottom: 20px;
+        margin: 5px 0px;
+    }
+
+}
+
+
+
+
+
+/*  INDEX[line 63]: carrusel testimonios */
+
+.container-xl {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+
+    .carousel {
+        width: 60%;
+        margin: 30px 0px;
+
+        img {
+            width: 100%;
+        }
+
+        @include pad {
+            width: 80%;
+        }
+
+        @include phone {
+            width: 100%;
+        }
+    }
+}

@@ -2,21 +2,26 @@
 footer {
     font-size: 0.5em;
     background-color: $azulOs;
-    text-align:start;
+    text-align: start;
     color: white;
     padding: 20px;
     @include flex (row, space-between, center, wrap);
-    
+
+    @include phone {
+        justify-content: center;
+
+        img {
+            width: 100%;
+        }
+    }
+
 }
 
 footer img {
-    width:280px;
+    width: 280px;
 
 }
 
 footer a img {
     width: 30px;
 }
-
-
-
