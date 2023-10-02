@@ -92,36 +92,39 @@
     </header>
     <main>
         <section class="registro">
-            <h1>Registro</h1>
-            <!-- formulario de registro -->
-            <form class="formRegistro formContact">
-                <div class="nombreApellido">
-                    <div>
-                        <label class='lName' for="nombre">Nombre</label>
-                        <input class='name' type="text" name="nombre" >
+            <div>
+                <h1>Registro</h1>
+                <!-- formulario de registro -->
+                <form class="formRegistro formContact">
+                    <div class="nombreApellido">
+                        <div>
+                            <label class='lName' for="nombre">Nombre</label>
+                            <input class='name' type="text" name="nombre">
+                        </div>
+                        <div>
+                            <label class='lLastName' for="apellido">Apellido</label>
+                            <input class='lastName' type="text" name="apellido">
+                        </div>
                     </div>
-                    <div>
-                        <label class='lLastName' for="apellido">Apellido</label>
-                        <input class='lastName' type="text" name="apellido" >
+                    <label class='lUser' for="username">Username</label>
+                    <input class='user' type="text" name="username">
+                    <label class='lEmail' for="correo">Correo</label>
+                    <input class='email' type="email" name="">
+                    <label class='lConfEmail' for="confEmail">Confirme correo</label>
+                    <input class='confEmail' type="email" name="confEmail">
+                    <label class='lPass' for="password">Contraseña</label>
+                    <input class='pass' type="password" name="password">
+                    <label class='lConfPass' for="confPassword">Confirme su Contraseña</label>
+                    <input class='confPass' type="password" name="confPassword">
+                    <div class="terminos">
+                        <input class='checkBox' type="checkbox" name="confirma">
+                        <label class='confirm' for="confirma">¿Acepta los terminos y condiciones?</label>
                     </div>
-                </div>
-                <label class='lUser' for="username">Username</label>
-                <input class='user' type="text" name="username" >
-                <label class='lEmail' for="correo">Correo</label>
-                <input class='email' type="email" name="" >
-                <label class='lConfEmail' for="confEmail">Confirme correo</label>
-                <input class='confEmail' type="email" name="confEmail" >
-                <label class='lPass' for="password">Contraseña</label>
-                <input class='pass' type="password" name="password" >
-                <label class='lConfPass' for="confPassword">Confirme su Contraseña</label>
-                <input class='confPass' type="password" name="confPassword" >
-                <div class="terminos">
-                    <input class='checkBox' type="checkbox" name="confirma" >
-                    <label class='confirm' for="confirma">¿Acepta los terminos y condiciones?</label>
-                </div>
 
-                <input type="button" value="Registrar">
-            </form>
+                    <input type="button" value="Registrar">
+                </form>
+
+            </div>
         </section>
     </main>
     <footer>

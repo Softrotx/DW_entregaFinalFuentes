@@ -6,7 +6,6 @@ footer {
     color: white;
     padding: 20px;
     @include flex (row, space-between, center, wrap);
-
     @include phone {
         justify-content: center;
 

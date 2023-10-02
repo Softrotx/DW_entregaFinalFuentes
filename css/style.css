@@ -301,8 +301,10 @@ main, main section {
   width: 100%;
 }
 .categorias h1 {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Poppins", sans-serif;
   width: 100%;
+  margin: 50px;
+  font-weight: 500;
 }
 .categorias ul li {
   list-style-type: none;
@@ -733,7 +735,7 @@ main, main section {
   background-color: #a2ccc2;
 }
 .bodyContact .contacto {
-  height: 550px;
+  height: 800px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -772,7 +774,7 @@ main, main section {
 .registro {
   width: 100%;
   background-color: #e6b8c2;
-  height: 550px;
+  height: 800px;
   display: flex;
   justify-content: center;
   align-items: center;
