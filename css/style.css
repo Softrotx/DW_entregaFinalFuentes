@@ -75,7 +75,7 @@ header .btn:hover {
 }
 .nav .login {
   display: flex;
-  font-size: 1.5em;
+  font-size: 1em;
   flex-wrap: wrap;
   justify-content: flex-end;
   border: 0;
