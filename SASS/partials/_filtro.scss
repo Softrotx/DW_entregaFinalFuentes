@@ -1,0 +1,32 @@
+.dropdown {
+
+    a {
+        
+        background-color: #fff;
+        color: black;
+        width: 100%;
+
+    }
+
+    :active {
+        background-color: $azulOs;
+    }
+
+    .dropdown-menu {
+        font-size: 0.5rem;
+
+        .dropdown-item {
+            :hover {
+                font-weight: 600;
+
+            }
+
+            :active {
+                background-color: $azulOs;
+                color: white;
+
+            }
+
+        }
+    }
+}

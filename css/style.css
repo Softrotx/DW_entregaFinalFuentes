@@ -263,6 +263,26 @@ main, main section {
   }
 }
 
+/* filtro y buscador */
+.dropdown a {
+  background-color: #fff;
+  color: black;
+  width: 100%;
+}
+.dropdown :active {
+  background-color: #163d5b;
+}
+.dropdown .dropdown-menu {
+  font-size: 0.5rem;
+}
+.dropdown .dropdown-menu .dropdown-item :hover {
+  font-weight: 600;
+}
+.dropdown .dropdown-menu .dropdown-item :active {
+  background-color: #163d5b;
+  color: white;
+}
+
 /* Page expositores */
 /* expositores[line] */
 .categorias {
@@ -287,23 +307,6 @@ main, main section {
 .categorias ul li {
   list-style-type: none;
   font-size: 2em;
-}
-
-.dropdown a {
-  font-size: 1em;
-  background-color: #fff;
-  color: black;
-  width: 100%;
-}
-.dropdown :active {
-  background-color: #163d5b;
-}
-.dropdown .dropdown-menu .dropdown-item :hover {
-  font-weight: 600;
-}
-.dropdown .dropdown-menu .dropdown-item :active {
-  background-color: #163d5b;
-  color: white;
 }
 
 .expositores div {
@@ -708,7 +711,7 @@ main, main section {
   justify-content: space-evenly;
 }
 .navigation .pageNav a {
-  font-size: 1.5em;
+  font-size: 1em;
   width: 100px;
   text-align: center;
 }
