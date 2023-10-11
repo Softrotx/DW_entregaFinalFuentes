@@ -131,6 +131,11 @@
         background: rgb(255, 255, 255);
         background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0) 80%,rgba(255, 255, 255, 1) 100%); 
     }
+    @include phone{
+        background: rgb(255, 255, 255);
+        background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 15%, rgba(255, 255, 255, 0) 85%,rgba(255, 255, 255, 1) 100%); 
+    }
+
 }
 
 .carrusel-texto {

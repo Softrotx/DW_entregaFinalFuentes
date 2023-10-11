@@ -120,10 +120,10 @@ header .btn:hover {
 /* footer */
 footer {
   font-size: 0.5em;
+  height: auto;
   background-color: #163d5b;
   text-align: start;
   color: white;
-  padding: 20px;
   position: absolute;
   bottom: 0;
   display: flex;
@@ -276,6 +276,12 @@ footer a img {
   .gradiente-testimonio {
     background: rgb(255, 255, 255);
     background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0) 80%, rgb(255, 255, 255) 100%);
+  }
+}
+@media only screen and (max-width: 500px) {
+  .gradiente-testimonio {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 15%, rgba(255, 255, 255, 0) 85%, rgb(255, 255, 255) 100%);
   }
 }
 
