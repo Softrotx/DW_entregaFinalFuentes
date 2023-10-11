@@ -298,7 +298,7 @@ footer a img {
 .carrusel-texto .elementos {
   display: flex;
   flex-direction: row;
-  animation: slide 60s cubic-bezier(0.075, 0.82, 0.165, 1) infinite;
+  animation: slide 60s infinite;
   justify-content: space-between;
   width: 300%;
 }
