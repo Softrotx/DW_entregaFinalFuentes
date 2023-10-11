@@ -7,6 +7,10 @@
 @import "partials/mixins";
 //FIN VARIABLES & mixins
 
+//INICIO GLOBALES
+@import "partials/global.scss";
+//FIN GLOBALES
+
 /* INICIO HEADER Y FOOTER */
 @import "partials/header";
 @import "partials/footer";

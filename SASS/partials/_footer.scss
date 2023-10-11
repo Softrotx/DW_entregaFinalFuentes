@@ -5,7 +5,10 @@ footer {
     text-align: start;
     color: white;
     padding: 20px;
+    position: absolute;
+  bottom: 0;
     @include flex (row, space-between, center, wrap);
+
     @include phone {
         justify-content: center;
 
