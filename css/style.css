@@ -908,10 +908,14 @@ footer a img {
 }
 
 /* page registro */
+.bg-registro {
+  background-color: #e6b8c2;
+}
+
 .registro {
   width: 100%;
   background-color: #e6b8c2;
-  height: 100%;
+  height: 800px;
   display: flex;
   justify-content: center;
   align-items: center;
