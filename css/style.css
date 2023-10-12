@@ -911,7 +911,7 @@ footer a img {
 .registro {
   width: 100%;
   background-color: #e6b8c2;
-  height: 800px;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
