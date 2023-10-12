@@ -782,6 +782,7 @@ footer a img {
   display: flex;
   justify-content: space-evenly;
   width: 50%;
+  cursor: pointer;
 }
 .talleres .talleresLeft .datosAvatar .rSociales img {
   width: 35px;
