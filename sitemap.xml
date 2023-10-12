@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+<url>
+  <loc>http://saludnuevaera.netlify.app/pages/expositores</loc>
+</url>
+<url>
+  <loc>http://saludnuevaera.netlify.app/pages/clases</loc>
+</url>
+<url>
+  <loc>http://saludnuevaera.netlify.app/pages/talleres</loc>
+</url>
+<url>
+  <loc>http://saludnuevaera.netlify.app/pages/contacto</loc>
+</url>
+<url>
+  <loc>http://saludnuevaera.netlify.app/pages/registro</loc>
+</url>
+<url>
+  <loc>http://saludnuevaera.netlify.app/pages/checkout</loc>
+</url>
+<url>
+  <loc>http://saludnuevaera.netlify.app/</loc>
+</url>
+</urlset>
